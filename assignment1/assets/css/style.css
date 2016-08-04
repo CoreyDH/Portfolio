@@ -174,7 +174,7 @@ input[type="submit"]:hover {
   text-align: center;
   padding: 15px 0px;
   position: absolute;
-  top: 165px;
+  bottom: 20px;
 }
 .portfolio-item:hover .portfolio-caption {
   background-color: #1a4b6d;
@@ -192,4 +192,27 @@ footer {
   color: #ccc;
   padding: 40px 0px;
   font-size: 12px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 980px) {
+
+  #logo {
+    width: 40%;
+  }
+  .container {
+    width: 90%;
+  }
+  section {
+    width: 50%;
+  }
+  aside {
+    width: 30%;
+  }
+  .portfolio-item {
+    width: 100%;
+  }
+  .portfolio-item img {
+    width: 100%;
+  }
 }
